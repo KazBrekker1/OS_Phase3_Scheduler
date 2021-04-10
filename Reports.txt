@@ -1,0 +1,311 @@
+
+==================== Specs ====================
+Number of CPUS: 2, Ram Size: 32, Pages Size: 32, Amount of Tasks: 4
+
+==================== Trace ====================
+
+ * Clock: 21.39: Arrival Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 89.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: -1.0}
+]}
+ * Clock: 21.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 89.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: -1.0}
+]}
+ * Clock: 23.28: Arrival Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 108.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: -1.0}
+]}Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 31.39}
+ PageNo : 0 Got Allocated in 0
+ * Clock: 31.39: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 79.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 31.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: -1.0}
+]}
+ * Clock: 31.39: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 108.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: -1.0}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 41.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 41.39: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 98.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 41.39}
+]}
+ * Clock: 41.39: Queues Swapped in CPU: 0
+ * Clock: 41.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 79.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 31.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: -1.0}
+]}
+ * Clock: 41.77: Arrival Task { ID: 0, Task Size: 165, Priority: 21, Arrival Time: 41.77, Burst Time: 89.1, Slice Time: 100.0, Parent CPU ID: 1, Scheduling Policy: 1, Nice: 0,
+Pages:
+[Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 27, Time inserted: -1.0}
+]}
+ * Clock: 41.77: Service Task { ID: 0, Task Size: 165, Priority: 21, Arrival Time: 41.77, Burst Time: 89.1, Slice Time: 100.0, Parent CPU ID: 1, Scheduling Policy: 1, Nice: 0,
+Pages:
+[Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 27, Time inserted: -1.0}
+]}
+ * Clock: 48.43: Arrival Task { ID: 1, Task Size: 120, Priority: 74, Arrival Time: 48.43, Burst Time: 124.49, Slice Time: 100.0, Parent CPU ID: 1, Scheduling Policy: 2, Nice: 0,
+Pages:
+[Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 1, Remaining Size: 8, Time inserted: -1.0}
+]}
+ * Clock: 48.43: Service Swap Task { ID: 1, Task Size: 120, Priority: 74, Arrival Time: 48.43, Burst Time: 124.49, Slice Time: 100.0, Parent CPU ID: 1, Scheduling Policy: 2, Nice: 0,
+Pages:
+[Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 1, Remaining Size: 8, Time inserted: -1.0}
+]}Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+ PageNo : 2 Swapped in 0
+ * Clock: 51.39: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 69.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 31.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}
+ * Clock: 51.39: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 98.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 41.39}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 61.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 61.39: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 88.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 61.39}
+]}
+ * Clock: 61.39: Queues Swapped in CPU: 0
+ * Clock: 61.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 69.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 31.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 71.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 71.39: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 59.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 71.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}
+ * Clock: 71.39: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 88.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 61.39}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 81.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 81.39: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 78.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 81.39}
+]}
+ * Clock: 81.39: Queues Swapped in CPU: 0
+ * Clock: 81.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 59.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 71.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+ PageNo : 1 Swapped in 0
+ * Clock: 91.39: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 49.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 71.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}
+ * Clock: 91.39: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 78.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 81.39}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 101.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 101.39: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 68.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 101.39}
+]}
+ * Clock: 101.39: Queues Swapped in CPU: 0
+ * Clock: 101.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 49.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 71.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 111.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 111.39: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 39.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 111.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}
+ * Clock: 111.39: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 68.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 101.39}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 121.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 121.39: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 58.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 121.39}
+]}
+ * Clock: 121.39: Queues Swapped in CPU: 0
+ * Clock: 121.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 39.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 111.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 131.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 131.39: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 29.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 131.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}
+ * Clock: 131.39: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 58.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 121.39}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 141.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 141.39: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 48.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 141.39}
+]}
+ * Clock: 141.39: Queues Swapped in CPU: 0
+ * Clock: 141.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 29.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 131.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 51.39}
+]}Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 151.39}
+ In Index: 2 Is Already Allocated In 0
+ * Clock: 151.39: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 19.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 131.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 151.39}
+]}
+ * Clock: 151.39: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 48.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 141.39}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 161.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 161.39: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 38.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 161.39}
+]}
+ * Clock: 161.39: Queues Swapped in CPU: 0
+ * Clock: 161.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 19.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 131.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 151.39}
+]}Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 171.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 171.39: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 9.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 171.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 151.39}
+]}
+ * Clock: 171.39: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 38.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 161.39}
+]}Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: 172.92}
+ In Index: 2 Is Already Allocated In 0
+ * Clock: 172.92: Departure Task { ID: 1, Task Size: 120, Priority: 74, Arrival Time: 48.43, Burst Time: 0.0, Slice Time: 100.0, Parent CPU ID: 1, Scheduling Policy: 2, Nice: 0,
+Pages:
+[Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 1, Remaining Size: 0, Time inserted: 172.92}
+, Page { Owner Task ID: 1, Remaining Size: 8, Time inserted: -1.0}
+]}
+ * Clock: 172.92: Service Task { ID: 0, Task Size: 165, Priority: 21, Arrival Time: 41.77, Burst Time: 82.44, Slice Time: 93.34, Parent CPU ID: 1, Scheduling Policy: 1, Nice: 0,
+Pages:
+[Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 27, Time inserted: -1.0}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 181.39}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 181.39: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 28.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 181.39}
+]}
+ * Clock: 181.39: Queues Swapped in CPU: 0
+ * Clock: 181.39: Service Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 9.4, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 171.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 151.39}
+]}Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 190.79}
+ In Index: 2 Is Already Allocated In 0
+ * Clock: 190.79: Departure Task { ID: 2, Task Size: 73, Priority: 117, Arrival Time: 21.39, Burst Time: 0.0, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 17,
+Pages:
+[Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 171.39}
+, Page { Owner Task ID: 2, Remaining Size: 0, Time inserted: 91.39}
+, Page { Owner Task ID: 2, Remaining Size: 23, Time inserted: 190.79}
+]}
+ * Clock: 190.79: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 28.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 181.39}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 200.79}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 200.79: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 18.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 200.79}
+]}
+ * Clock: 200.79: Queues Swapped in CPU: 0
+ * Clock: 200.79: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 18.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 200.79}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 210.79}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 210.79: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 8.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 210.79}
+]}
+ * Clock: 210.79: Queues Swapped in CPU: 0
+ * Clock: 210.79: Service Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 8.69, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 210.79}
+]}Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 219.48}
+ In Index: 0 Is Already Allocated In 0
+ * Clock: 219.48: Departure Task { ID: 3, Task Size: 21, Priority: 104, Arrival Time: 23.28, Burst Time: 0.0, Slice Time: 10.0, Parent CPU ID: 0, Scheduling Policy: 0, Nice: 4,
+Pages:
+[Page { Owner Task ID: 3, Remaining Size: 11, Time inserted: 219.48}
+]}Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: 255.36}
+ PageNo : 3 Swapped in 0
+ * Clock: 255.36: Departure Task { ID: 0, Task Size: 165, Priority: 21, Arrival Time: 41.77, Burst Time: 0.0, Slice Time: 93.34, Parent CPU ID: 1, Scheduling Policy: 1, Nice: 0,
+Pages:
+[Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: 255.36}
+, Page { Owner Task ID: 0, Remaining Size: 0, Time inserted: -1.0}
+, Page { Owner Task ID: 0, Remaining Size: 27, Time inserted: -1.0}
+]}
+==================== End of Trace ====================
+
+==================== Measurements ====================
+AVG response Time: 2.03
+Page Fault Counter: 3
+Page Fault Counter For NRT: 2
+Page Fault Counter For RT: 1
+CPU: 0, IDEL Time: 21.39, Busy Time: 198.09, CPU Utilization: 90.25% 
+CPU: 1, IDEL Time: 41.77, Busy Time: 213.59, CPU Utilization: 83.64% 
+The Through Put: 0.02
