@@ -17,8 +17,7 @@ public class Task {
     private double responseTime = 0;
     private static DecimalFormat numberFormat = new DecimalFormat("#.00");
     private ArrayList<Page> pagesList = new ArrayList<Page>();
-    private static ArrayList<Integer> mapList = new ArrayList<Integer>();
-    // can be static
+    private ArrayList<Integer> mapList = new ArrayList<Integer>();
 
 
     public Task() {
@@ -76,8 +75,8 @@ public class Task {
         this.prio = prio;
     }
 
-    ArrayList<Integer> getMapList() {
-        return mapList;
+    public ArrayList<Integer> getMapList() {
+        return this.mapList;
     }
 
     public double getAt() {
